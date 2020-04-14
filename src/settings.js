@@ -37,7 +37,7 @@ export default {
   CRYPTO_ALGORITHM: 'aes-128-cbc',
   LOG_LEVEL: (process.env.LOG_LEVEL: any) || 'info',
   KEEP_ALIVE_TIMEOUT: 15000, // 15 seconds
-  SOCKET_TIMEOUT: 31000, // 31 seconds
+  SOCKET_TIMEOUT: 101000, // 31 seconds
 
   VERBOSE_PROTOCOL: false,
   SHOW_VERBOSE_DEVICE_LOGS: false,
