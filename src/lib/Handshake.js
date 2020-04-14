@@ -89,7 +89,7 @@ const logger = Logger.createModuleLogger(module);
 const NONCE_BYTES = 40;
 const ID_BYTES = 12;
 const SESSION_BYTES = 40;
-const GLOBAL_TIMEOUT = 10;
+const GLOBAL_TIMEOUT = 30;
 const DECIPHER_STREAM_TIMEOUT = 30;
 
 type HandshakeResult = {
